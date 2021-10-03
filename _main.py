@@ -793,91 +793,100 @@ driver.quit()
 # organisme
 organisme='VIVESCIA'
 
-# on lance le driver
-driver = configure_firefox_driver()
 
-# authentification sur la page de connexion
-url = 'https://www.vivescia.com/envie-de-nous-rejoindre/nous-rejoindre'
-driver.get(url)
+urlpage ='https://www.vivescia.com/envie-de-nous-rejoindre/nous-rejoindre'
+page_vivescia = requests.get(urlpage, headers=headers)
 
-#print(driver.page_source)
-
-try:
-    myElem = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/section/div[1]/section/div/div[3]/div/div[2]/div[1]/div/div/div/form/div/div[1]/div/div[1]/div[1]')))
-    print("Page is ready!")
-except TimeoutException:
-    print("Loading took too much time!")
-
-driver.find_element_by_xpath("/html/body/div[2]/div/section/div[1]/section/div/div[3]/div/div[2]/div[1]/div/div/div/form/div/div[1]/div/div[1]/div[1]").click()
-
-
-try:
-    myElem = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/section/div[1]/section/div/div[3]/div/div[2]/div[1]/div/div/div/form/div/div[1]/div/div[2]/ul/li[2]')))
-    print("Page is ready!")
-except TimeoutException:
-    print("Loading took too much time!")
-
-# filtre des offres
-driver.find_element_by_xpath("/html/body/div[2]/div/section/div[1]/section/div/div[3]/div/div[2]/div[1]/div/div/div/form/div/div[1]/div/div[2]/ul/li[2]").click()
-
-# on attend 5 secondes
-time.sleep(5)
-# on vérifie que le filtre soit bon
-filtre = str(driver.find_element_by_xpath("/html/body/div[2]/div/section/div[1]/section/div/div[3]/div/div[2]/div[1]/div/div/div/form/div/div[1]/div/div[1]/div[1]").text)
-
-if filtre=='2 SEMAINES':
-    print('Filtre : ok !')
-else:
-    print('Filtre non pris en compte')
-
-time.sleep(5)
-
-soup_vivescia = BeautifulSoup(driver.page_source,'html.parser')
-# lister les éléments des balises div de class:"offre row", 1 élément = une offre
-offres = soup_vivescia.find('tbody').find_all('tr')
-
-for offre in offres:
-    details=offre.find_all('td')
-    # date de pot offre
-    date_publication = str(details[0].getText())
-    # titre de l'offre
-    titre = str(details[2].getText())
-    print(titre)
-    # type de contrat : CDD CDI etc
-    contrat = str(details[3].getText())
-    # lieu de l'offre
-    lieu = str(details[4].getText())
-    # url de l'offre en détails
-    href_offre = str(details[5].find('a').get('href'))
-    href_finale = 'https://www.vivescia.com' + href_offre
-    # on change de page
-    lieu_page = requests.get(href_finale)
-    # objet BeautifulSoup, page html complète
-    soup_lieu=BeautifulSoup(lieu_page.text,'html.parser')
+if page_vivescia.status_code==200:  
+    
+    # on lance le driver
+    driver = configure_firefox_driver()
+    
+    # authentification sur la page de connexion
+    url = 'https://www.vivescia.com/envie-de-nous-rejoindre/nous-rejoindre'
+    driver.get(url)
+    
+    #print(driver.page_source)
+    
     try:
-        synthese = soup_lieu.find('div', {'class':'field-name-field-description field-type-text-long'}).find_all('div')[1].find('p').getText()
-    except:
-        synthese = 'pas de synthese'
-    # ID
-    ID = organisme+"_"+titre
-    ID= ' '.join(ID.split())
-    motif = re.compile(' ')
-    ID = str(re.sub(motif, "_", ID)) 
-    # on enregistre les infos
-    offres_emploi = offres_emploi.append({'ID':ID,
-                                          'Organisme':organisme,
-                                          'Titre':titre,
-                                          'Lieu':lieu,
-                                          'Type_contrat':contrat,
-                                          'Debut_emploi':'',
-                                          'Limite_date_cv' : '',
-                                          'Date_depot_offre': date_publication,
-                                          'Synthese' : synthese,
-                                          'URL_offre' : href_finale}, 
-                                          ignore_index=True
-                                          ) 
+        myElem = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/section/div[1]/section/div/div[3]/div/div[2]/div[1]/div/div/div/form/div/div[1]/div/div[1]/div[1]')))
+        print("Page is ready!")
+    except TimeoutException:
+        print("Loading took too much time!")
+    
+    driver.find_element_by_xpath("/html/body/div[2]/div/section/div[1]/section/div/div[3]/div/div[2]/div[1]/div/div/div/form/div/div[1]/div/div[1]/div[1]").click()
+    
+    
+    try:
+        myElem = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/section/div[1]/section/div/div[3]/div/div[2]/div[1]/div/div/div/form/div/div[1]/div/div[2]/ul/li[2]')))
+        print("Page is ready!")
+    except TimeoutException:
+        print("Loading took too much time!")
+    
+    # filtre des offres
+    driver.find_element_by_xpath("/html/body/div[2]/div/section/div[1]/section/div/div[3]/div/div[2]/div[1]/div/div/div/form/div/div[1]/div/div[2]/ul/li[2]").click()
+    
+    # on attend 5 secondes
+    time.sleep(5)
+    # on vérifie que le filtre soit bon
+    filtre = str(driver.find_element_by_xpath("/html/body/div[2]/div/section/div[1]/section/div/div[3]/div/div[2]/div[1]/div/div/div/form/div/div[1]/div/div[1]/div[1]").text)
+    
+    if filtre=='2 SEMAINES':
+        print('Filtre : ok !')
+    else:
+        print('Filtre non pris en compte')
+    
+    time.sleep(5)
+    
+    soup_vivescia = BeautifulSoup(driver.page_source,'html.parser')
+    # lister les éléments des balises div de class:"offre row", 1 élément = une offre
+    offres = soup_vivescia.find('tbody').find_all('tr')
+    
+    for offre in offres:
+        details=offre.find_all('td')
+        # date de pot offre
+        date_publication = str(details[0].getText())
+        # titre de l'offre
+        titre = str(details[2].getText())
+        print(titre)
+        # type de contrat : CDD CDI etc
+        contrat = str(details[3].getText())
+        # lieu de l'offre
+        lieu = str(details[4].getText())
+        # url de l'offre en détails
+        href_offre = str(details[5].find('a').get('href'))
+        href_finale = 'https://www.vivescia.com' + href_offre
+        # on change de page
+        lieu_page = requests.get(href_finale)
+        # objet BeautifulSoup, page html complète
+        soup_lieu=BeautifulSoup(lieu_page.text,'html.parser')
+        try:
+            synthese = soup_lieu.find('div', {'class':'field-name-field-description field-type-text-long'}).find_all('div')[1].find('p').getText()
+        except:
+            synthese = 'pas de synthese'
+        # ID
+        ID = organisme+"_"+titre
+        ID= ' '.join(ID.split())
+        motif = re.compile(' ')
+        ID = str(re.sub(motif, "_", ID)) 
+        # on enregistre les infos
+        offres_emploi = offres_emploi.append({'ID':ID,
+                                              'Organisme':organisme,
+                                              'Titre':titre,
+                                              'Lieu':lieu,
+                                              'Type_contrat':contrat,
+                                              'Debut_emploi':'',
+                                              'Limite_date_cv' : '',
+                                              'Date_depot_offre': date_publication,
+                                              'Synthese' : synthese,
+                                              'URL_offre' : href_finale}, 
+                                              ignore_index=True
+                                              ) 
+    
+    driver.quit()
 
-driver.quit()
+else:
+        print('Le code de statut d\'erreur de réponse HTTP est : ', page_vivescia.status_code)
 
 #=================================================================
 # IN VIVO
@@ -936,9 +945,12 @@ offres_emploi.drop_duplicates(subset="ID", keep='first', inplace=True)
 offres_emploi_synthese_concat = pd.merge(offres_emploi_synthese, offres_emploi,
                                          on=list_colonnes,
                                          how='outer')
+# elimination des doublons
+offres_emploi_synthese_concat.drop_duplicates(subset="ID", keep='first', inplace=True)
+# enregistrement du fichier
 offres_emploi_synthese_concat.to_csv(path_csv_synthese, encoding='utf-8-sig', sep=';', decimal='.', index=False)
 
-offres_emploi_synthese_concat.drop_duplicates(subset="ID", keep='first', inplace=True)
+
 
 
     
