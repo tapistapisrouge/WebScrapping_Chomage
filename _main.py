@@ -445,9 +445,13 @@ for offre in offres:
     lieu_page = requests.get(href_finale)
     # objet BeautifulSoup, page html complète
     soup_lieu=BeautifulSoup(lieu_page.text,'html.parser')
-    lieu = soup_lieu.find('div', {'class':'recrutement-item__lieu'}).getText()
-    motif = re.compile("\\n|  ")
-    lieu = str(re.sub(motif, "", lieu)) 
+    # lieu du job
+    if soup_lieu.find('div', {'class':'recrutement-item__lieu'}) is None:
+        lieu = 'inconnu'
+    else:
+        lieu = soup_lieu.find('div', {'class':'recrutement-item__lieu'}).getText()
+        motif = re.compile("\\n|  ")
+        lieu = str(re.sub(motif, "", lieu)) 
     # date où l'offre à été posté
     date_depot_offre = soup_lieu.find('span', {'class':'page-publication__date'}).find('time').getText()
     motif = re.compile("\\n|  ")
