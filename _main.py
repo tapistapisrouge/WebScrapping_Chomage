@@ -160,7 +160,7 @@ with requests.Session() as arvalis_session:
     if page_arvalis.status_code==200:       
         # objet BeautifulSoup, page html complète
         soup_arvalis=BeautifulSoup(page_arvalis.text,'html.parser')
-        print(soup_arvalis)   
+        # print(soup_arvalis)   
     
         # lister les éléments des balises div de class:"offre row", 1 élément = une offre
         offres=soup_arvalis.find_all('div', {'class':'offre row'})
@@ -201,7 +201,7 @@ with requests.Session() as arvalis_session:
             #path_pdf = 'C:/Users/amaur/Documents/GitHub/JunkiesMessenger/web_scrapping/arvalis_pdf'
             name_pdf = titres + '.pdf'
             path_pdf_temp=pathlib.Path(path_pdf, name_pdf)
-            print(path_pdf_temp)
+            # print(path_pdf_temp)
             # mettre le chemin en str
             #path_str=str(path_input)
             #path_str=path_str.replace('\\','/')   
@@ -229,10 +229,10 @@ with requests.Session() as arvalis_session:
                                                   'URL_offre': href_finale}, 
                                                   ignore_index=True
                                                     )
-        else:
-            print("La page n'a pu être récupérée, voici le code d'erreur :")   
-            print(page_arvalis.status_code)
-                
+    else:
+        print("Arvalis - La page n'a pu être récupérée, voici le code d'erreur :")   
+        print(page_arvalis.status_code)
+            
 
 #==============================================================================================
 # Exemple 2 ==> TERRES INOVIA, comme ARVALIS, pas de souis particulier
@@ -247,7 +247,7 @@ with requests.Session() as inovia_session:
     if page_inovia.status_code==200: 
         # objet BeautifulSoup, page html complète
         soup_inovia=BeautifulSoup(page_inovia.text,'html.parser')
-        print(soup_inovia) 
+        # print(soup_inovia) 
         
         # lister les éléments "offre row"
         offres=soup_inovia.find_all('div', {'class':'col-1-2'})
@@ -305,7 +305,7 @@ with requests.Session() as inovia_session:
                                                   ignore_index=True
                                                  )
     else:
-        print("La page n'a pu être récupérée, voici le code d'erreur :")   
+        print("Terres Inovia - La page n'a pu être récupérée, voici le code d'erreur :")   
         print(page_inovia.status_code)
 
 
@@ -320,7 +320,7 @@ with requests.Session() as ca_session:
     if page_ca.status_code==200: 
         # objet BeautifulSoup, page html complète
         soup_ca = BeautifulSoup(page_ca.text,'html.parser')
-        print(soup_ca) 
+        # print(soup_ca) 
         
         # lister les éléments "offre row"
         regions = soup_ca.find_all('div', {'class':'liste_emploi'})
@@ -347,7 +347,7 @@ with requests.Session() as ca_session:
                 page_offre = ca_session.get(href_totale)
                 # objet BeautifulSoup, page html complète
                 soup_offre_ca = BeautifulSoup(page_offre.text,'html.parser')
-                print(soup_offre_ca)
+                # print(soup_offre_ca)
                 # titre
                 titre = soup_offre_ca.find('div', {'class':'title_page'}).find('h1').getText()
                 # lieu
@@ -388,7 +388,7 @@ with requests.Session() as ca_session:
                                                       )
 
     else:
-        print("La page n'a pu être récupérée, voici le code d'erreur :")   
+        print("CA - La page n'a pu être récupérée, voici le code d'erreur :")   
         print(page_ca.status_code)
 
 
@@ -410,6 +410,8 @@ urlpage_offres ='https://idele.fr/recrutement'
 # le driver headless va sur la page de recrutement
 idele_offres = driver.get(urlpage_offres)
 
+
+
 # charger jusq'à ce que la partie javascript soit lisible
 # attente de l'élément
 try:
@@ -417,18 +419,18 @@ try:
     print ("Page is ready!")
 except TimeoutException:
     print("Loading took too much time!")
-
+    
 # inutile :
 # time.sleep(5)
-
-print(driver.page_source)
-
+    
+# print(driver.page_source)
+    
 # on passe le code html en un objet beautifulsoup pour le traiter facilement
 soup_idele = BeautifulSoup(driver.page_source,'html.parser')
 # lister les éléments des balises article de class:"article-vertical sectionAllEmplois-article", 1 élément = une offre
 offres=soup_idele.find_all('article', {'class':'article-vertical sectionAllEmplois-article'})
-
-
+    
+    
 # ya plus qu'à, maintenant c'est facile
 for offre in offres:
     titre = offre.find('div', {'class':'article-vertical__title sectionAllEmplois-article__title'}).getText()
@@ -479,9 +481,9 @@ for offre in offres:
                                           'URL_offre' : href_finale}, 
                                           ignore_index=True
                                           )    
-
-
 driver.quit()
+
+
 
 
 #==============================================================================================
@@ -649,7 +651,7 @@ if var_glob!='pass':
     # page des offres
     url_offres = 'https://emploi.apecita.com/front-offres.html'
     driver.get(url_offres)
-    print(driver.page_source)
+    # print(driver.page_source)
     
     try:
         element = WebDriverWait(driver, 5).until(
@@ -706,7 +708,7 @@ if var_glob!='pass':
     # marche pas, pas normal, driver.find_element_by_xpath("//*[@title=\"'METIERS DE LA RECHERCHE, DE L'EXPERIMENTATION, DE L'ETUDE ET DE LA CONCEPTION'\"]")
     driver.find_element_by_xpath("(//li[@class='select2-results__option'])[9]").click()
     driver.find_element_by_xpath("//button[@class='btn btn-primary']").click()
-    print(driver.page_source)     
+    # print(driver.page_source)     
     
     # print(driver.page_source)
     
@@ -754,7 +756,7 @@ if var_glob!='pass':
         # aller sur le lien
         href_offre = offre.find('a').get('href')    
         href_finale = 'https://emploi.apecita.com/' + href_offre
-        print(href_finale)
+        # print(href_finale)
         # on y va !
         offre_detail = driver.get(href_finale)
         soup_offre_temp = BeautifulSoup(driver.page_source,'html.parser')
@@ -768,7 +770,7 @@ if var_glob!='pass':
         synthese = soup_offre_temp.find('div', {'class':'col-md-8'}).find('p').getText()
         motif = re.compile("[^\w -/]")
         synthese = str(re.sub(motif, "", synthese))
-        print(synthese)
+        # print(synthese)
         # ID
         ID = organisme+"_"+titre
         ID= ' '.join(ID.split())
@@ -890,7 +892,7 @@ if page_vivescia.status_code==200:
     driver.quit()
 
 else:
-        print('Le code de statut d\'erreur de réponse HTTP est : ', page_vivescia.status_code)
+        print('Vivescia - Le code de statut d\'erreur de réponse HTTP est : ', page_vivescia.status_code)
 
 #=================================================================
 # IN VIVO

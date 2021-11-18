@@ -1,0 +1,760 @@
+1636567208382	geckodriver	INFO	Listening on 127.0.0.1:61878
+1636567211416	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileWQ5WxH"
+*** You are running in headless mode.
+1636567212468	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileWQ5WxH\\search.json.mozlz4", (void 0)))
+1636567214581	Marionette	INFO	Listening on port 61902
+1636567214689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636567220562	Marionette	INFO	Stopped listening on port 61902
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofileWQ5WxH\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636567221523	geckodriver	INFO	Listening on 127.0.0.1:61975
+1636567224529	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilevVXaaN"
+*** You are running in headless mode.
+1636567225095	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilevVXaaN\\search.json.mozlz4", (void 0)))
+1636567226826	Marionette	INFO	Listening on port 61984
+1636567227212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636567401691	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1636567411596	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1636567414776	Marionette	INFO	Stopped listening on port 61984
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390145,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636567418050	geckodriver	INFO	Listening on 127.0.0.1:62094
+1636567421069	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileczPJA2"
+*** You are running in headless mode.
+1636567421643	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileczPJA2\\search.json.mozlz4", (void 0)))
+1636567423376	Marionette	INFO	Listening on port 62102
+1636567423745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.vivescia.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1636567458668	Marionette	INFO	Stopped listening on port 62102
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofileczPJA2\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636726025027	geckodriver	INFO	Listening on 127.0.0.1:65065
+1636726028033	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileVbm8gk"
+*** You are running in headless mode.
+1636726028974	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileVbm8gk\\search.json.mozlz4", (void 0)))
+1636726031079	Marionette	INFO	Listening on port 65075
+1636726031272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636726040873	Marionette	INFO	Stopped listening on port 65075
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofileVbm8gk\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636726042664	geckodriver	INFO	Listening on 127.0.0.1:65158
+1636726045649	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileuX0vkJ"
+*** You are running in headless mode.
+1636726046645	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileuX0vkJ\\search.json.mozlz4", (void 0)))
+1636726048820	Marionette	INFO	Listening on port 65167
+1636726048872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636726069732	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+1636726088390	Marionette	INFO	Stopped listening on port 65167
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636726093050	geckodriver	INFO	Listening on 127.0.0.1:65268
+1636726096061	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilehKywGQ"
+*** You are running in headless mode.
+1636726096919	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilehKywGQ\\search.json.mozlz4", (void 0)))
+1636726099097	Marionette	INFO	Listening on port 65276
+1636726099280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.vivescia.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1636726137085	Marionette	INFO	Stopped listening on port 65276
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofilehKywGQ\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636726249305	geckodriver	INFO	Listening on 127.0.0.1:65426
+1636726252292	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileKTee8S"
+*** You are running in headless mode.
+1636726252895	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileKTee8S\\search.json.mozlz4", (void 0)))
+1636726255005	Marionette	INFO	Listening on port 65435
+1636726255489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636726260910	Marionette	INFO	Stopped listening on port 65435
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofileKTee8S\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636726261875	geckodriver	INFO	Listening on 127.0.0.1:65509
+1636726264846	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofiletmmY1F"
+*** You are running in headless mode.
+1636726265645	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofiletmmY1F\\search.json.mozlz4", (void 0)))
+1636726268326	Marionette	INFO	Listening on port 65517
+1636726268588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+tte" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileSeLt1E"
+*** You are running in headless mode.
+1636726617229	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileSeLt1E\\search.json.mozlz4", (void 0)))
+1636726619533	Marionette	INFO	Listening on port 49296
+1636726619636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+tte" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilerdKdzj"
+*** You are running in headless mode.
+1636726680744	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilerdKdzj\\search.json.mozlz4", (void 0)))
+1636726684513	Marionette	INFO	Listening on port 49423
+1636726685033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+irefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileCnNMNa"
+*** You are running in headless mode.
+1636726934257	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileCnNMNa\\search.json.mozlz4", (void 0)))
+1636726936334	Marionette	INFO	Listening on port 49649
+1636726936698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636726942645	Marionette	INFO	Stopped listening on port 49649
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofileCnNMNa\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636726943603	geckodriver	INFO	Listening on 127.0.0.1:49733
+1636726946577	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilel09ho6"
+*** You are running in headless mode.
+1636726947241	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilel09ho6\\search.json.mozlz4", (void 0)))
+1636726949169	Marionette	INFO	Listening on port 49741
+1636726949269	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636726967493	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+1636726980640	Marionette	INFO	Stopped listening on port 49741
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636726984650	geckodriver	INFO	Listening on 127.0.0.1:49824
+1636726987629	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofile9M1cxQ"
+*** You are running in headless mode.
+1636726988267	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofile9M1cxQ\\search.json.mozlz4", (void 0)))
+1636726990141	Marionette	INFO	Listening on port 49834
+1636726990308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.vivescia.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1636727023457	Marionette	INFO	Stopped listening on port 49834
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofile9M1cxQ\protections.sqlite
+1636800821974	geckodriver	INFO	Listening on 127.0.0.1:52942
+1636800824961	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileDBHKs6"
+*** You are running in headless mode.
+1636800825803	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileDBHKs6\\search.json.mozlz4", (void 0)))
+1636800827594	Marionette	INFO	Listening on port 52951
+1636800827680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636800833060	Marionette	INFO	Stopped listening on port 52951
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofileDBHKs6\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636800833839	geckodriver	INFO	Listening on 127.0.0.1:53022
+1636800836839	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofile298siT"
+*** You are running in headless mode.
+1636800837270	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofile298siT\\search.json.mozlz4", (void 0)))
+1636800838906	Marionette	INFO	Listening on port 53030
+1636800839013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636800881274	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1636800892888	Marionette	INFO	Stopped listening on port 53030
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636800896382	geckodriver	INFO	Listening on 127.0.0.1:53119
+1636800899370	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilepFAAlC"
+*** You are running in headless mode.
+1636800899896	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilepFAAlC\\search.json.mozlz4", (void 0)))
+1636800901642	Marionette	INFO	Listening on port 53127
+1636800902057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.vivescia.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1636800933510	Marionette	INFO	Stopped listening on port 53127
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofilepFAAlC\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636976079837	geckodriver	INFO	Listening on 127.0.0.1:55381
+1636976082830	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilegcpmNV"
+*** You are running in headless mode.
+1636976083809	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilegcpmNV\\search.json.mozlz4", (void 0)))
+1636976086752	Marionette	INFO	Listening on port 55389
+1636976087173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636976100968	Marionette	INFO	Stopped listening on port 55389
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofilegcpmNV\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636976102268	geckodriver	INFO	Listening on 127.0.0.1:55470
+1636976105188	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileA5FE6y"
+*** You are running in headless mode.
+1636976106346	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileA5FE6y\\search.json.mozlz4", (void 0)))
+1636976109324	Marionette	INFO	Listening on port 55479
+1636976109910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636976142962	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "map".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "map".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "util".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "util".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "overlay".
+1636976149011	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 105: Error: Could not load "search_impl".
+1636976159546	Marionette	INFO	Stopped listening on port 55479
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x680014,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390145,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390145,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390145,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390145,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x680022,name=PNecko::Msg_RequestContextAfterDOMContentLoaded) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636976164959	geckodriver	INFO	Listening on 127.0.0.1:55585
+1636976167946	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileA1saeP"
+*** You are running in headless mode.
+1636976168815	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileA1saeP\\search.json.mozlz4", (void 0)))
+1636976171057	Marionette	INFO	Listening on port 55600
+1636976171151	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.vivescia.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1636976207579	Marionette	INFO	Stopped listening on port 55600
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofileA1saeP\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637052199653	geckodriver	INFO	Listening on 127.0.0.1:60175
+1637052202693	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilemzBepD"
+*** You are running in headless mode.
+1637052203561	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilemzBepD\\search.json.mozlz4", (void 0)))
+1637052205877	Marionette	INFO	Listening on port 60184
+1637052206402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637052212642	Marionette	INFO	Stopped listening on port 60184
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637052214466	geckodriver	INFO	Listening on 127.0.0.1:60266
+1637052217442	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilevynncT"
+*** You are running in headless mode.
+1637052218363	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilevynncT\\search.json.mozlz4", (void 0)))
+1637052220869	Marionette	INFO	Listening on port 60277
+1637052221486	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637052280658	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1637052298330	Marionette	INFO	Stopped listening on port 60277
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637052303601	geckodriver	INFO	Listening on 127.0.0.1:60371
+1637052306619	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileNuuO0Z"
+*** You are running in headless mode.
+1637052307514	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileNuuO0Z\\search.json.mozlz4", (void 0)))
+1637052309615	Marionette	INFO	Listening on port 60380
+1637052309809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.vivescia.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1637052344129	Marionette	INFO	Stopped listening on port 60380
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofileNuuO0Z\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637154296222	geckodriver	INFO	Listening on 127.0.0.1:54100
+1637154299216	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileXZP3t0"
+*** You are running in headless mode.
+1637154299924	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileXZP3t0\\search.json.mozlz4", (void 0)))
+1637154301891	Marionette	INFO	Listening on port 54108
+1637154301930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637154309226	Marionette	INFO	Stopped listening on port 54108
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofileXZP3t0\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637154310213	geckodriver	INFO	Listening on 127.0.0.1:54194
+1637154313177	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileTARhf9"
+*** You are running in headless mode.
+1637154313829	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileTARhf9\\search.json.mozlz4", (void 0)))
+1637154315639	Marionette	INFO	Listening on port 54202
+1637154315861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637154391381	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1637154402949	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1637154406058	Marionette	INFO	Stopped listening on port 54202
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x680014,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x680014,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x680014,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x680014,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x680014,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637154412097	geckodriver	INFO	Listening on 127.0.0.1:54332
+1637154415120	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilem4MmDC"
+*** You are running in headless mode.
+1637154416036	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilem4MmDC\\search.json.mozlz4", (void 0)))
+1637154418294	Marionette	INFO	Listening on port 54340
+1637154418331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.vivescia.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1637154452448	Marionette	INFO	Stopped listening on port 54340
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofilem4MmDC\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637232695721	geckodriver	INFO	Listening on 127.0.0.1:62106
+1637232698730	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilehWMblq"
+*** You are running in headless mode.
+1637232699557	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofilehWMblq\\search.json.mozlz4", (void 0)))
+1637232702189	Marionette	INFO	Listening on port 62114
+1637232702459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637232710488	Marionette	INFO	Stopped listening on port 62114
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofilehWMblq\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637232711697	geckodriver	INFO	Listening on 127.0.0.1:62184
+1637232714689	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileuY0ecm"
+*** You are running in headless mode.
+1637232715528	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileuY0ecm\\search.json.mozlz4", (void 0)))
+1637232717618	Marionette	INFO	Listening on port 62193
+1637232717896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637232735507	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 106: Error: Could not load "overlay".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 106: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 106: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 106: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 106: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 106: Error: Could not load "search_impl".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 106: Error: Could not load "onion".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=fr&callback=onApiLoad, line 106: Error: Could not load "onion".
+1637232745315	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1637232750438	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1637232752131	Marionette	INFO	Stopped listening on port 62193
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014D,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637232756276	geckodriver	INFO	Listening on 127.0.0.1:62312
+1637232759220	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--window-size=1920,1200" "-foreground" "-no-remote" "-profile" "C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileWAXxnn"
+*** You are running in headless mode.
+1637232760058	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\amaur\\AppData\\Local\\Temp\\rust_mozprofileWAXxnn\\search.json.mozlz4", (void 0)))
+1637232762075	Marionette	INFO	Listening on port 62321
+1637232762471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.vivescia.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1637232800834	Marionette	INFO	Stopped listening on port 62321
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\amaur\AppData\Local\Temp\rust_mozprofileWAXxnn\protections.sqlite
